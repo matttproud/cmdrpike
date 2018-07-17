@@ -1,0 +1,19 @@
+{
+	"name": "theme-acme",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Acme",
+				"uiTheme": "vs",
+				"path": "./themes/acme-color-theme.json"
+			}
+		]
+	}
+}
